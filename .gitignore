@@ -16,10 +16,23 @@ out
 # gradle
 build
 .gradle
+gradle
+*.gradle
+build.gradle
+gradle.properties
+gradlew
+gradlew.bat
 
 # other
 eclipse
+.vscode
 run
+run-data
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# project properties
+changelog.txt
+CREDITS.txt
+LICENSE.txt
