@@ -3,10 +3,12 @@ package com.MinecraftRpg.common.blocks;
 import com.MinecraftRpg.MinecraftRpg;
 import com.MinecraftRpg.common.items.PressItem;
 
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,8 +25,11 @@ public class SilverOreBlock {
     public static final DeferredRegister<Block> BLOCKS = 
         DeferredRegister.create(ForgeRegistries.BLOCKS, MinecraftRpg.MODID);
 
-    public static final RegistryObject<Block> PRESS_BLOCK = registerBlock("silver_ore_block", 
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(0.5f).requiresCorrectToolForDrops()),
+    public static final RegistryObject<DropExperienceBlock> SILVER_ORE_BLOCK = registerBlock("silver_ore_block", 
+        () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
+            .strength(0.5f)
+            .requiresCorrectToolForDrops(),
+            UniformInt.of(10, 15)),
         null);
 
     public static void register(IEventBus eventBus){
