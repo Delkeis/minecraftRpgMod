@@ -25,7 +25,7 @@ public class SilverBlock {
         DeferredRegister.create(ForgeRegistries.BLOCKS, MinecraftRpg.MODID);
 
     public static final RegistryObject<Block> PRESS_BLOCK = registerBlock("silver_block", 
-        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).strength(0.5f).requiresCorrectToolForDrops()),
+        () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(0.5f).requiresCorrectToolForDrops()),
         null);
 
     public static void register(IEventBus eventBus){
