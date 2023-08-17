@@ -1,0 +1,10 @@
+{
+    "item.minecraftrpg.gold_coin": "gold coin",
+    "item.minecraftrpg.silver_coin": "silver coin",    
+    "item.minecraftrpg.copper_coin": "copper coin",
+    "block.minecraftrpg.press_block": "money press",
+    "block.minecraftrpg.silver_ore_block": "silver ore block",   
+    "block.minecraftrpg.silver_ore": "silver ore",   
+    "block.minecraftrpg.silver_ingot": "silver ingot",   
+    "block.minecraftrpg.silver_block": "silver block"
+}

@@ -1,0 +1,9 @@
+{
+    "item.minecraftrpg.gold_coin": "pièce d'or",
+    "item.minecraftrpg.silver_coin": "pièce d'argent",
+    "item.minecraftrpg.copper_coin": "pièce de cuivre",
+    "block.minecraftrpg.press_block": "presse à monaie",
+    "block.minecraftrpg.silver_ore_block": "Block d'argent",   
+    "block.minecraftrpg.silver_ore": "Minerai d'argent",   
+    "block.minecraftrpg.silver_ingot": "lingo d'argent"
+}
